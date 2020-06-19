@@ -24,7 +24,7 @@ install:
   # - npm uninstall electron-builder --save-dev
   - yarn global add electron-builder
   # - yarn global add electron-updater
-  - npm install electron-updater --save
+  # - npm install electron-updater --save
 script:
   - npm install
   - npm update
@@ -48,8 +48,8 @@ script:
   # - node deletepackage.js
   # - dir
   # - npm uninstall --global yarn
-  - cd dist
-  - dir
-  - cd -
+  # - cd dist
+  # - dir
+  # - cd -
   # - zip -r dist.zip dist/
   # - release-it --config .release-it.json --no-npm.publish --no-git
