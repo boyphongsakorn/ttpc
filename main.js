@@ -13,7 +13,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  win.loadFile('test.html')
+  win.loadFile('https://www.tiktok.com/foryou')
 
   // Open the DevTools.
   // win.webContents.openDevTools()
