@@ -10,7 +10,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+<<<<<<< HEAD
     "electron": "^11.2.1",
     "electron-builder": "^22.9.1"
+=======
+    "electron": "^7.2.4"
+>>>>>>> a4a3f6d9089120a7ac1fdb15ebe83b0358549d08
   }
 }
