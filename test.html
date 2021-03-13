@@ -11,6 +11,11 @@
         /*setTimeout(function() {
           document.getElementById("foo").openDevTools();
         }, 2000);*/
+
+        var webview = document.getElementById('foo');
+        webview.addEventListener('dom-ready', function () {
+            webview.insertCSS('.side-hamburger{ display: none !important;}')
+        });
     </script>
 </body>
 </html>
