@@ -9,7 +9,8 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true,
       webviewTag: true,
-      nativeWindowOpen: true
+      nativeWindowOpen: true,
+      contextIsolation: false
     }
   })
 
