@@ -1,2 +1,2 @@
 # ttpc
- unofficele TikTok On PC
+unofficial TikTok On PC
