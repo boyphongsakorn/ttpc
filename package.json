@@ -7,6 +7,35 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
+  "build": {
+    "productName": "ttpc",
+    "appId": "com.boyphongsakorn.ttpc",
+    "artifactName": "${productName}.${ext}",
+    "copyright": "copyright © 2021 Quad B Software",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "compression": "maximum",
+      "publisherName": "Quad B Software",
+      "signingHashAlgorithms": [
+        "sha1"
+      ]
+    },
+    "nsis": {
+      "artifactName": "${productName}-Setup.${ext}",
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Network",
+      "compression": "maximum"
+    }
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
